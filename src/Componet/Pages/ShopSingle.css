@@ -1,0 +1,22 @@
+.sstext {
+    position: absolute;
+    top: 3%;
+    left: 8%;
+}
+.leftqunnumber input {
+    padding: 14px ;
+    border: 2px solid #274C5B;
+    max-width: 134px;
+    border-radius: 16px;
+    color: #274C5B;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Related Products */
+/* Related Products */

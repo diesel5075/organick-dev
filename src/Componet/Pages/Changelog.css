@@ -1,0 +1,15 @@
+.mainchange {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 39px 37px 0px #C3C3C340;
+    padding: 26px 41px 26px 41px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    max-width: 705px;
+    margin: 0 auto;
+}
+.changetext {
+    display: flex;
+    align-items: center;
+}

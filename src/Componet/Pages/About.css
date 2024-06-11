@@ -1,0 +1,71 @@
+.about_us_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.con_one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* why choose */
+.WhyChoose {
+  background-color: #f9f8f8;
+}
+.WhyChoose_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.WhyChooseimg h5 {
+  background: #ececec;
+  padding: 29px 91px 29px 27px;
+  display: inline-block;
+  border-radius: 49px;
+}
+.WhyChooseimg p {
+  max-width: 460px;
+}
+.policyitmes {
+  background-color: #ffffff;
+  padding: 19px;
+  display: inline-block;
+  max-width: 250px;
+  border-radius: 30px;
+  text-align: center;
+}
+.policy {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* why choose */
+/* team */
+.tram_info {
+    max-width: 852px;
+    margin: 0 auto;
+}
+.img img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.teamright {
+    display: flex;
+    justify-content: space-around;
+    background: #F9F8F8;
+    border-radius: 0px 0px 20px 20px;
+    padding: 15px 0;
+    align-items: center;
+}
+.rteamleft svg {
+    font-size: 20px;
+}
+.img:hover {
+  box-shadow: 0px 29px 44px 0px #96969640;
+  border-radius: 20px;
+  background: white;
+}
+/* team */
+/* Aboutus's About Us */
+/* Aboutus's About Us */

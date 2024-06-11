@@ -1,0 +1,29 @@
+
+.numberbutton p {
+    background-color: #7eb693;
+    width: 69px;
+    height: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.partbutton {
+    background-color: #f9f8f8;
+    padding: 15px 53px 15px 17px;
+    border-radius: 100px;
+    display: flex;
+    width: 416px;
+    text-align: start;
+    justify-content: start;
+    align-items: center;
+}
+.servicepartbutton {
+    display: flex;
+    justify-content: space-evenly;
+}
+.serviceparttext {
+    background-color: #F9F8F8;
+    padding: 63px 45px 63px 45px;
+    border-radius: 20px;
+}

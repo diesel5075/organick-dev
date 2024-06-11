@@ -1,0 +1,34 @@
+.banner {
+    position: relative;
+    width: 100%;
+  }
+  
+  .bannername {
+    position: relative;
+  }
+  
+  .btext {
+    position: relative;
+    width: 100%;
+  }
+  
+  img.w-100 {
+    width: 100%;
+    display: block;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  
+  
+  

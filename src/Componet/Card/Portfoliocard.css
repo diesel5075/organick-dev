@@ -1,0 +1,15 @@
+.imghovericon {
+    background-color: #7EB693;
+    max-width: 50px;
+    max-height: 50px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.imghover {
+    background-color: brown;
+    height: 100vh;
+    width: 100%;
+}

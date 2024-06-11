@@ -1,0 +1,36 @@
+.conicon {
+  display: flex;
+  align-items: center;
+}
+.location_img {
+  background-image: url("../Images/locationimg.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  border-radius: 20px;
+}
+.locationdetails {
+  background-color: wheat;
+  max-width: 514px;
+  padding: 46px 53px 46px 53px;
+  border-radius: 30px;
+}
+.locationdetails {
+  background-color: white;
+  max-width: 514px;
+  padding: 46px 53px 46px 53px;
+  border-radius: 30px;
+  position: absolute;
+  top: 10%;
+  display: inline-block;
+  right: 10%;
+}
+.banna_img {
+  width: 500px;
+}
+
+@media (max-width: 500px) {
+  .banna_img {
+    width: 300px;
+  }
+}

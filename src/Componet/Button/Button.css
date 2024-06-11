@@ -1,0 +1,5 @@
+.shopnowbutton:hover {
+    cursor: pointer;
+    background-color:white  !important;
+    color: #274c5b !important;
+    border: 1px solid #274c5b;}

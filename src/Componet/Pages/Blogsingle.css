@@ -1,0 +1,20 @@
+.blogsingle {
+    background-color: #FFFFFF;
+    box-shadow: 0px 14px 36px 0px #CCCCCC40;
+    padding: 43px 43px 43px 43px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: -17%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.textbak {
+    background-color: #F1EDEA;
+    padding: 69px 59px 69px 59px;
+    border-radius: 30px;
+    color: #274C5B;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}

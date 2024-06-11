@@ -1,0 +1,261 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+.t_color {
+  color: #274c5b;
+  font-weight: 700;
+}
+.yellowtail-regular {
+  font-family: "Yellowtail", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+/* coman class */
+.df_ali_justy{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.First_text_p {
+  color: #7eb693;
+  font-size: 36px;
+  font-family: "Yellowtail", cursive;
+  font-weight: 400;
+}
+.smallp {
+  font-size: 22px;
+  color: #7eb693;
+  font-weight: 400;
+  font-family: "Yellowtail", cursive;
+}
+
+.Secound_text_h2 {
+  font-size: 50px;
+  color: #274c5b;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  max-width: 530px;
+}
+.Third_text_smallp {
+  color: #525c60;
+  font-size: 18px;
+  max-width: 671px;
+}
+.mypadding_top-bottom {
+  padding: 100px 0;
+}
+.smalltextp {
+  color: #274c5b;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.h5text {
+  font-size: 25px;
+  font-weight: 800;
+  color: #274c5b;
+  font-family: "Roboto", sans-serif;
+}
+.headingh2 {
+  font-size: 50px;
+  color: #274c5b;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+}
+.headingwhite {
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+}
+.psmalltext {
+  font-size: 25px;
+  color: white;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.bannetrshoph2 {
+  font-size: 70px;
+  color: #274c5b;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+}
+.imgcatbox {
+  color: white;
+  background-color: #274c5b;
+  padding: 5px 12px 6px 12px;
+  border-radius: 8px;
+  display: inline-block;
+}
+.del {
+  color: #b8b8b8;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 10px 10px 0;
+}
+.pricep {
+  color: #274c5b;
+  font-size: 25px;
+  font-weight: 700;
+}
+.addtocart {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+.headerfonts {
+  color: #274c5b !important;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.font400 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #525c60;
+}
+.mxwidth {
+  max-width: 1137px;
+  margin: 0 auto;
+  text-align: center;
+}
+.font600 {
+  font-weight: 600;
+  font-size: 25px;
+  color: #274c5b;
+  font-family: "Roboto", sans-serif;
+}
+.font18 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #274c5b;
+  font-family: "Roboto", sans-serif;
+}
+.dinline {
+  display: inline-block;
+}
+.errorfont {
+  font-size: 250px;
+  color: #8fa8a8;
+  font-family: "Roboto", sans-serif;
+}
+.font40 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #274c5b;
+  font-family: "Roboto", sans-serif;
+}
+.font30 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #274c5b;
+  font-family: "Roboto", sans-serif;
+}
+.myinput {
+  border: 1px solid #7eb693;
+}
+a {
+  text-decoration: none;
+}
+/* .shopnowbutton:hover {
+  cursor: pointer;
+  background-color: #274c5b !important;
+  color: white !important;
+  border: 1px solid #274c5b;
+} */
+
+/* icon hover in card */
+.hearticon {
+  opacity: 0;
+  font-size: 25px;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  transition: 0.4s linear;
+}
+
+.products:hover .hearticon {
+  opacity: 1;
+}
+.mainico {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+/* icon hover in card */
+
+.styheader {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background-color: white;
+}
+/* footer */
+.brdfooter {
+  border: 1px solid grey;
+}
+.brdfooter {
+  border-top: 0px;
+}
+.brdfooter {
+  border-bottom: 0px;
+}
+/* card icon */
+.filled {
+  color: red; /* Or any other color you prefer */
+}
+/*  */
+.wh{
+  height: 1000px;
+}
+.bgcolors{
+  background-color: #F9F8F8;
+}
+.counteraddbutton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}

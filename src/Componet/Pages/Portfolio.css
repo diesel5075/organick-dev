@@ -1,0 +1,8 @@
+.portfoliopro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.borderr{
+    border-radius: 20px;
+}
